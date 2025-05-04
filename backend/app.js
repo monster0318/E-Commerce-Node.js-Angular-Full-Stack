@@ -1,8 +1,10 @@
 const express = require("express");
 const dotenv = require("dotenv");
+
 const path = require("path");
 const logger = require("morgan");
 const cors = require("cors");
+
 
 // Config .env file
 dotenv.config({
@@ -10,6 +12,7 @@ dotenv.config({
 });
 
 // Initialize express app
+
 const app = express();
 
 // Middleware
